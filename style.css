@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 #wrapper {
@@ -9,6 +10,7 @@
     overflow-x: hidden;
     overflow-y: auto;
     perspective: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container {
@@ -37,4 +39,14 @@
     width: 100%;
     z-index: -1;
     /* This will fit the image in container */
+    object-fit: cover;
+}
+
+h1 {
+    position: absolute;
+    top: 3rem;
+    letter-spacing: 4px;
+    font-size: 10rem;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
